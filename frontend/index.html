@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Task Manager</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>Task Manager</h1>
+
+  <h3 id="welcome"></h3>
+
+  <input
+    type="text"
+    id="search"
+    placeholder="Search Task"
+    onkeyup="searchTask()"
+  >
+
+  <input
+    type="text"
+    id="task"
+    placeholder="Enter Task"
+  >
+
+  <button onclick="addTask()">
+    Add Task
+  </button>
+
+  <div id="tasks"></div>
+
+  <button
+    class="logout"
+    onclick="logout()"
+  >
+    Logout
+  </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

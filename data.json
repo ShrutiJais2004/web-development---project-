@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "username": "shruti jais ",
+      "password": "123456"
+    },
+    {
+      "username": "shruti ",
+      "password": "123456"
+    },
+    {
+      "username": "shrutijais",
+      "password": "23456"
+    },
+    {
+      "username": "Shrutijais",
+      "password": "23456"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "walk daily",
+      "completed": true
+    },
+    {
+      "task": "complete web development assignment",
+      "completed": false
+    },
+    {
+      "task": "Upload project on Github",
+      "completed": false
+    },
+    {
+      "task": "Pay Electircity  Bill ",
+      "completed": false
+    },
+    {
+      "task": "update resume for placement",
+      "completed": false
+    },
+    {
+      "task": "plan tomorrow schedule",
+      "completed": false
+    },
+    {
+      "task": "complete project",
+      "completed": false
+    },
+    {
+      "task": "complete assignment",
+      "completed": false
+    }
+  ]
+}

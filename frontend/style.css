@@ -1,0 +1,118 @@
+body{
+
+  margin:0;
+  padding:0;
+  font-family:Arial;
+  background:linear-gradient(135deg,#4facfe,#00f2fe);
+
+}
+
+.container{
+
+  width:400px;
+  margin:40px auto;
+  background:white;
+  padding:20px;
+  border-radius:15px;
+  box-shadow:0px 0px 15px gray;
+
+}
+
+h1{
+
+  text-align:center;
+  color:#0077ff;
+
+}
+
+h2,h3{
+
+  text-align:center;
+
+}
+
+input{
+
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  border-radius:8px;
+  border:1px solid gray;
+  box-sizing:border-box;
+
+}
+
+button{
+
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  border:none;
+  border-radius:8px;
+  background:#0077ff;
+  color:white;
+  cursor:pointer;
+  font-size:16px;
+
+}
+
+button:hover{
+
+  opacity:0.9;
+
+}
+
+.task{
+
+  background:#f1f1f1;
+  padding:12px;
+  margin-top:10px;
+  border-radius:10px;
+
+}
+
+.completed{
+
+  text-decoration:line-through;
+  color:gray;
+
+}
+
+.actions{
+
+  margin-top:10px;
+
+}
+
+.actions button{
+
+  width:auto;
+  padding:8px 12px;
+  margin-right:5px;
+
+}
+
+.actions button:first-child{
+
+  background:green;
+
+}
+
+.actions button:last-child{
+
+  background:red;
+
+}
+
+.logout{
+
+  background:red;
+
+}
+
+a{
+
+  text-decoration:none;
+  color:#0077ff;
+
+}
